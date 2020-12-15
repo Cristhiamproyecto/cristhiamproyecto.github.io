@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title></title>
+  
+</head>
+<body>
+<center>
+<header><h1>Ingresar datos para mostrarlos.</h1></header>
+<form id="forma" action="javascript:;">
+
+ <label accesskey="B"> Boleta
+    <input name="Boleta" type="text" autofocus required pattern=".{1,30}" 
+    maxlength="30" size="33" placeholder="Ingresa los 10 caracteres.">
+ </label>
+ <br><output id="salidaBoleta"></output>
+
+ <br>
+
+ <label accesskey="N"> Nombre
+  <input name="nom" type="text" autofocus required pattern=".{1,30}" 
+  maxlength="30" size="33" placeholder="Ingresa de 1 a 30 caracteres.">
+ </label>
+ <br><output id="salidaNom"></output>
+
+ <br>
+
+ <label accesskey="G"> Grupo
+  <input name="gru" type="text" autofocus required pattern=".{1,30}" 
+  maxlength="30" size="33" placeholder="Ingresa tu grupo correspondiente.">
+ </label>
+ <br><output id="salidaGru"></output>
+
+ <br>
+
+ <label accesskey="M"> Materia
+  <input name="mat" type="text" autofocus required pattern=".{1,30}" 
+  maxlength="30" size="33" placeholder="Ingresa tu materia correspondiente.">
+ </label>
+ <br><output id="salidaMat"></output>
+
+ <br>
+
+ <label accesskey="F"> Fecha
+  <input name="fec" type="date" autofocus required pattern=".{1,30}" 
+  maxlength="30" size="33" placeholder="">
+ </label>
+ <br><output id="salidaFec"></output>
+
+  <br><br>
+    <input type="submit" value="   Procesar   " accesskey="p">
+
+    <br><br>
+</form>
+  <footer>CopyRight &copy Cristhiam Palomares</footer>
+</center>
+<script src="JS/CtrlTextos.js"></script>
+</body>
+</html>
